@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
     <title>Google</title>
 </head>
@@ -16,8 +17,8 @@
         <ul class="header_list">
             <li>Gmail</li>
             <li>Images</li>
-            <li>Menu Button</li>
-            <li><button>Sign in</button></li>
+            <li><i class="fas fa-th fa-2x"></i></li>
+            <li><button id='sign-in'>Sign in</button></li>
         </ul>
     </header>
     <body>
@@ -26,8 +27,10 @@
         <form action="#">
             <input type="text" id="search_bar" placeholder="">
         </form>
+        <div id="btns">
         <button class="search_btn">Google Search</button>
-        <button class="search_btn">I'm feeling lucky</button>
+        <button class="search_btn">I'm Feeling Lucky</button>
+    </div>
     </div>
         <footer id="footer">
             <div id="footer_container">
