@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Google</title>
 </head>
 <body>
     <header>
-        <ul>
+        <ul class="header_list">
             <li>About</li>
             <li>Store</li>
+        </ul>
+        <ul class="header_list">
             <li>Gmail</li>
             <li>Images</li>
             <li>Menu Button</li>
@@ -18,13 +21,16 @@
         </ul>
     </header>
     <body>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+        <div class="centered">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo" id="logo">
         <form action="#">
             <input type="text" id="search_bar" placeholder="">
         </form>
         <button class="search_btn">Google Search</button>
         <button class="search_btn">I'm feeling lucky</button>
+    </div>
         <footer id="footer">
+            <div id="footer_container">
             <ul>
                 <li>Advertising</li>
                 <li>Business</li>
@@ -34,6 +40,7 @@
                 <li>Terms</li>
                 <li>Settings</li>
             </ul>
+        </div>
         </footer>
     </body>
 </body>
